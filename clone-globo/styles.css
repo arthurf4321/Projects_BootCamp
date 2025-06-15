@@ -1,0 +1,122 @@
+/* Parte superior */
+.header-top {
+    color: rgb(21, 21, 195);
+    border-radius: 3px;
+    margin-left: 45%;
+    margin-top: 7px;
+}
+    /* links abaixo do Titulo */
+    .linhaSuperior {
+    background-color: rgb(224, 223, 223);
+    width: 100%;
+    height: 1px; 
+    margin-top: 10px;
+    }
+
+    .iconsParceiros {
+        display: flex;
+        gap: 100px;
+        margin-left: 165px;
+        margin-top: 10px;
+    }
+
+    #g1_link {
+        color: rgb(190, 1, 1);
+    }
+    #oglobo_link {
+        color: rgb(20, 35, 163);
+    }
+    #valor_link {
+        color: rgb(34, 129, 39);
+    }
+    #ge_link {
+        color: rgb(46, 177, 120);
+    }
+    #cartola_link {
+        color: rgb(237, 116, 29);
+    }
+    #globoplay_link {
+        color: rgb(248, 26, 26);
+    }
+    #gshow_link {
+        color: rgb(249, 104, 51);
+    }
+    #quem_link {
+        color: rgb(0, 0, 0);
+    }
+    #receitas_link {
+        color: rgb(201, 50, 247);
+    }
+
+    .linhaSInferior {
+    background-color: rgb(224, 223, 223);
+    width: 100%;
+    height: 1px; 
+    margin-top: 15px;
+    }
+  
+/* informações superior a direira*/
+.infoSuperiorDireita {
+    width: 500px;
+    height: 250px;
+    margin-top: 45px;
+    margin-left: 200px;
+}
+
+#titulo {
+    font-size: 25px;
+    color: rgb(202, 2, 2);
+    font-weight: bold;
+}
+#subTitulo {
+    color: rgb(80, 80, 80);
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Linha Central do site*/
+.LinhasCentral{
+   background-color: rgb(224, 223, 223);
+    width: 1px;
+    height: 600px; 
+    margin-top: -260px;
+    margin-left: 800px;
+}
+
+.linhaSInferiorDireita{
+    background-color: rgb(224, 223, 223);
+    width: 560px;
+    height: 1px; 
+    margin-left: 200px;
+    margin-top: -330px;
+}
+
+.cardsNoticiasDireita1{
+    width: 560px;
+    height: 230px;
+    margin-left: 200px;
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#card1{
+    width: 150px;
+    height: 200px;
+}
+
+#TituloCard1{
+    color: rgb(202, 2, 2);
+    margin-top: 6px;
+}
+
+#TexteCentral1{
+    color: black;
+    margin-top: 4px;
+}
+
+#TexteInferior1{
+    margin-top: 6px;
+    color: rgb(103, 103, 103);
+}
