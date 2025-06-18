@@ -56,8 +56,8 @@ body{
         height: 170px;
         width: 130px;
         border-radius: 5px;
-        flex-shrink: 0; /* Impede o card de encolher */
-        scroll-snap-align: start; /* Faz o snap parar no início de cada card */
+        flex-shrink: 0; 
+        scroll-snap-align: start;
     }
 
     #imagemPrato img{
@@ -67,6 +67,7 @@ body{
         margin-top: 10px;
         margin-left: 13px;
     }
+
     #tituloPrato h1{
         font-size: 12px;
         font-family: 'Roboto', sans-serif; 
@@ -90,4 +91,61 @@ body{
         display: flex;
         flex-direction: column;
         gap: 7px;
+    }
+
+.Title-OpçoesBebidas p{
+    font-size: 20px;
+    font-family: 'Righteous', cursive; 
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+    .opçoesBebidas{
+        height: 100px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 15px;
+        height: 170px;
+        width:400px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+
+    #cardBedidas{
+        background-color: white;
+        height: 170px;
+        width: 130px;
+        border-radius: 5px;
+        flex-shrink: 0; 
+        scroll-snap-align: start;
+    }
+
+    #tituloBebidas h1{
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif; 
+        margin-left: 13px;
+    }
+
+    #subTituloBebidas p{
+        font-size: 11px;
+        color: rgb(180, 180, 180);
+        font-family: 'Roboto', sans-serif;
+        margin-left: 13px;
+    }
+
+    #preçoBebidas p{
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 13px;
+    }
+    
+    #imagemBebidas img{
+        width: 100px;
+        height: 60px;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 13px;
     }
