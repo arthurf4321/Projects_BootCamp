@@ -36,10 +36,10 @@ body{
 
 .StoriesProfile{
     background-color: rgb(255, 255, 255);
-    width: 630px;
+    width: 614px;
     height: 110px;
     border: 1px solid rgb(221, 221, 221);
-    border-radius: 3px;
+    border-radius: 4px;
     margin-top: 40px;
     margin-left: 400px;
 }
@@ -81,4 +81,151 @@ body{
         height: 60px;
         border-radius: 50%;
         object-fit: cover;
+    }
+
+    #NameUser{
+        margin-left: 5px;
+    }
+
+
+.PostsUsers{
+    width: 614px;
+    height: 1500px;
+    margin-left: 400px;
+    margin-top: 30px;
+    display: flex; 
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+    .Post1{
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(221, 221, 221);
+        width: 614px;
+        height: 735px;
+        border-radius: 4px;
+    }
+
+    #TopPost1{
+        width: 614px;
+        height: 60px;
+        display: flex; 
+        gap: 435px;
+        flex-wrap: wrap;
+    }
+
+    #Post-imageUser1 img{
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    #Post-nameUser1{
+        margin-top: -25px;
+        margin-left: 70px;
+        font-weight: bold;
+        font-size: 2px;
+    }
+
+    #iconMoreOptions1{
+        margin-top: 25px;
+    }
+
+    #ImgPost1 img{
+        width: 614px;
+        height: 600px;
+    }
+
+    
+    #iconsLowPost1 ion-icon{
+        font-size: 22px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    #favoriteIcon1{
+        font-size: 22px;
+        margin-top: -30px;
+        margin-left: 585px;
+    }
+
+    #imgUserLike-Post1 img{
+        height: 23px;
+        width: 23px;
+        border-radius: 50px;
+        margin-left: 12px;
+    }
+
+    #TextUsersLiked-Post1 h6{
+        font-size: 14px;
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+
+     .Post2{
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(221, 221, 221);
+        width: 614px;
+        height: 735px;
+        border-radius: 4px;
+    }
+
+    #TopPost2{
+        width: 614px;
+        height: 60px;
+        display: flex; 
+        gap: 435px;
+        flex-wrap: wrap;
+    }
+
+    #Post-imageUser2 img{
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    #Post-nameUser2{
+        margin-top: -25px;
+        margin-left: 70px;
+        font-weight: bold;
+        font-size: 2px;
+    }
+
+    #iconMoreOptions2{
+        margin-top: 25px;
+    }
+
+    #ImgPost2 img{
+        width: 614px;
+        height: 600px;
+    }
+
+    
+    #iconsLowPost2 ion-icon{
+        font-size: 22px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    #favoriteIcon2{
+        font-size: 22px;
+        margin-top: -30px;
+        margin-left: 585px;
+    }
+
+    #imgUserLike-Post2 img{
+        height: 23px;
+        width: 23px;
+        border-radius: 50px;
+        margin-left: 12px;
+    }
+
+    #TextUsersLiked-Post2 h6{
+        font-size: 14px;
+        margin-top: -20px;
+        margin-left: 40px;
     }
