@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(232, 232, 232);
+}
+
+.topBar{
+    background-color: rgb(185, 49, 49);
+    width: 420px;
+    height: 80px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+    #Title p{
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        font-family: 'Righteous', cursive;
+        margin-left: 10px;
+    }
+
+    #subTitle p{
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 10px;
+        position: relative;
+        top: -10px;
+    }
+
+
+.Title-OpçoesPratos p{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+    .OpçoesPratos{
+        height: 100px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 15px;
+        height: 170px;
+        width:400px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+
+    .OpçoesPratos::-webkit-scrollbar {
+    display: none; 
+    }
+
+    #cardPrato{
+        background-color: white;
+        height: 170px;
+        width: 130px;
+        border-radius: 5px;
+        flex-shrink: 0; /* Impede o card de encolher */
+        scroll-snap-align: start; /* Faz o snap parar no início de cada card */
+    }
+
+    #imagemPrato img{
+        width: 100px;
+        height: 60px;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 13px;
+    }
+    #tituloPrato h1{
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif; 
+        margin-left: 13px;
+    }
+
+    #subTitulo{
+        font-size: 11px;
+        color: rgb(180, 180, 180);
+        font-family: 'Roboto', sans-serif;
+        margin-left: 13px;
+    }
+
+    #preço p{
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 13px;
+    }
+
+    #infosPrato{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
