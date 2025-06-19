@@ -53,7 +53,7 @@ body{
 
     #cardPrato{
         background-color: white;
-        height: 170px;
+        height: 160px;
         width: 130px;
         border-radius: 5px;
         flex-shrink: 0; 
@@ -116,7 +116,7 @@ body{
 
     #cardBedidas{
         background-color: white;
-        height: 170px;
+        height: 140px;
         width: 130px;
         border-radius: 5px;
         flex-shrink: 0; 
@@ -148,4 +148,92 @@ body{
         border-radius: 5px;
         margin-top: 10px;
         margin-left: 13px;
+    }
+
+
+.Title-OpçoesSobremesa p{
+    font-size: 20px;
+    font-family: 'Righteous', cursive; 
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+
+    .opçoesSobremesa{
+        height: 100px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 15px;
+        height: 170px;
+        width:400px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+
+    #cardSobremesa{
+        background-color: white;
+        height: 160px;
+        width: 130px;
+        border-radius: 5px;
+        flex-shrink: 0; 
+        scroll-snap-align: start;
+    }
+
+    #tituloSobremesa h1{
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif; 
+        margin-left: 13px;
+    }
+
+    #subTituloSobremesa p{
+        font-size: 11px;
+        color: rgb(180, 180, 180);
+        font-family: 'Roboto', sans-serif;
+        margin-left: 13px;
+    }
+
+    #preçoSobremesa p{
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 13px;
+    }
+    
+    #imgSobremesa img{
+        width: 100px;
+        height: 60px;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 13px;
+    }
+
+.FinalizarPedido{
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 80px;
+    margin-top: 30px;
+    position: fixed;
+}
+
+    #FinalizarButton{
+        background-color: rgb(197, 197, 197);
+        height: 50px;
+        width: 300px;
+        border-radius: 25px;
+        margin-top: 17px;
+        margin-left: 30px;
+    }
+    #FinalizarButton p{
+        color: white;
+    }
+
+    .selecionado {
+        border: 2px solid green;
+    }
+
+    #FinalizarButton.ativo {
+        background-color: green;
+        cursor: pointer;
     }
