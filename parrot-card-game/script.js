@@ -37,3 +37,13 @@ function duplicarCartas(cartas){
     resultado.sort(() => Math.random() - 0.5);
     return resultado;
 }
+
+const gameBoard = document.getElementById("game-board");
+
+cartasFinais.forEach((cartaFinal) => {
+    const carta = document.createElement("img")
+    carta.alt = cartaFinal;
+    carta.src = "imagens/" + cartaFinal + ".jpg";
+    carta.classList.add("estilo-cartas");
+    gameBoard.appendChild(carta);
+})
