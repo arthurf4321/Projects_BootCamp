@@ -1,3 +1,10 @@
+.card{
+    width: 900px;
+    height: 600px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
 .back-cartas {
   width: 150px;
   height: 200px;
