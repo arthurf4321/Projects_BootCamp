@@ -14,9 +14,26 @@ numeroDeCartas = parseInt(prompt("Quantas cartas vc quer na sua partida?"))
 function verficarNumeroDeCartas(numeroDeCartas){
     if (numeroDeCartas >= 4 && numeroDeCartas <= 14) {
         if(numeroDeCartas % 2 === 0){
-            return true;
+        return true;
         }    
     } else {
         return false;
     }
+}
+
+let numeroDeCartasDivididas = numeroDeCartas / 2;
+let paresDeCartas = ["carta1" , "carta2" ,"carta3" ,"carta4" ,"carta5" ,"carta6" ,"carta7"]
+let cartas = paresDeCartas.slice(0, numeroDeCartasDivididas);
+let cartasFinais = duplicarCartas(cartas);
+
+function duplicarCartas(cartas){
+    let resultado = [];
+
+    for(let i of cartas){
+        resultado.push(i);
+        resultado.push(i);  
+        }
+        
+    resultado.sort(() => Math.random() - 0.5);
+    return resultado;
 }
