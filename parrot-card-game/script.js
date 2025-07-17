@@ -1,4 +1,6 @@
 numeroDeCartas = null;
+const gameBoard_front = document.getElementById("front-gameBoard");
+const gameBoard_back = document.getElementById("back-gameBoard");
 
 while(numeroDeCartas === null) {
 numeroDeCartas = parseInt(prompt("Quantas cartas vc quer na sua partida?"))
@@ -38,12 +40,19 @@ function duplicarCartas(cartas){
     return resultado;
 }
 
-const gameBoard = document.getElementById("game-board");
-
 cartasFinais.forEach((cartaFinal) => {
     const carta = document.createElement("img")
     carta.alt = cartaFinal;
-    carta.src = "imagens/" + cartaFinal + ".jpg";
-    carta.classList.add("estilo-cartas");
-    gameBoard.appendChild(carta);
+    carta.src = "imagens/" + "fundo" + ".jpg";
+    carta.classList.add("back-cartas");
+        carta.addEventListener("click", function() {
+            if(carta.classList.contains("virada")) return;{
+                carta.src = "imagens/" + cartaFinal + ".jpg";
+                carta.classList.add("virada");
+                verificarCartas(carta);
+            }
+        })
+    gameBoard_front.appendChild(carta);
 })
+
+
