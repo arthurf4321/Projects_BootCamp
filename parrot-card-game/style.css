@@ -1,11 +1,17 @@
 .back-cartas {
-    width: 150px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin: 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
-    cursor: pointer;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
+}
+
+.virada {
+  transform: rotateY(180deg);
 }
 
 .front-cartas{
